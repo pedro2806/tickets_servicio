@@ -1,0 +1,63 @@
+[18-Feb-2025 23:03:28 UTC] PHP Warning:  Undefined variable $ticket in /home/mess/public_html/tickets_servicio/acciones_nuevo_ticket.php on line 106
+[18-Feb-2025 23:03:28 UTC] Correos recibidos: sebastian.gutierrez@mess.com.mx
+[18-Feb-2025 23:03:28 UTC] Mensaje recibido: 'Tienes un nuevo ticket asignado: '
+[18-Feb-2025 23:03:28 UTC] PHP Fatal error:  Uncaught Error: Class "PHPMailer\PHPMailer\Exception" not found in /home/mess/public_html/tickets_servicio/PHPMailer-master/src/PHPMailer.php:1858
+Stack trace:
+#0 /home/mess/public_html/tickets_servicio/PHPMailer-master/src/PHPMailer.php(1600): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 18 F...', ' \r\n<html>\r\n<hea...')
+#1 /home/mess/public_html/tickets_servicio/PHPMailer-master/src/PHPMailer.php(1436): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/mess/public_html/tickets_servicio/enviaNotificacion.php(110): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/mess/public_html/tickets_servicio/PHPMailer-master/src/PHPMailer.php on line 1858
+[18-Feb-2025 23:05:40 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/mess/public_html/tickets_servicio/index.php on line 89
+[18-Feb-2025 23:05:48 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/mess/public_html/tickets_servicio/index.php on line 89
+[18-Feb-2025 23:05:48 UTC] PHP Warning:  Undefined array key "nombredelusuario" in /home/mess/public_html/tickets_servicio/encabezado.php on line 41
+[18-Feb-2025 23:05:50 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/mess/public_html/tickets_servicio/ticket.php on line 47
+[18-Feb-2025 23:05:50 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/mess/public_html/tickets_servicio/menu.php on line 2
+[18-Feb-2025 23:05:50 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/mess/public_html/tickets_servicio/encabezado.php on line 41
+[18-Feb-2025 23:05:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/mess/public_html/tickets_servicio/encabezado.php on line 41
+[18-Feb-2025 23:06:18 UTC] PHP Warning:  Undefined variable $ticket in /home/mess/public_html/tickets_servicio/acciones_nuevo_ticket.php on line 106
+[18-Feb-2025 23:06:18 UTC] Correos recibidos: sebastian.gutierrez@mess.com.mx
+[18-Feb-2025 23:06:18 UTC] Mensaje recibido: 'Tienes un nuevo ticket asignado: '
+[18-Feb-2025 23:06:20 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mess/public_html/tickets_servicio/PHPMailer-master/src/SMTP.php:277) in /home/mess/public_html/tickets_servicio/enviaNotificacion.php on line 127
+[18-Feb-2025 23:31:42 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/mess/public_html/tickets_servicio/index.php on line 89
+[18-Feb-2025 23:32:54 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/mess/public_html/tickets_servicio/index.php on line 89
+[18-Feb-2025 23:32:54 UTC] PHP Warning:  Undefined array key "nombredelusuario" in /home/mess/public_html/tickets_servicio/encabezado.php on line 41
+[18-Feb-2025 23:41:56 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/mess/public_html/tickets_servicio/index.php on line 89
+[18-Feb-2025 23:42:16 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/mess/public_html/tickets_servicio/index.php on line 89
+[18-Feb-2025 23:42:16 UTC] PHP Warning:  Undefined array key "nombredelusuario" in /home/mess/public_html/tickets_servicio/encabezado.php on line 41
+[18-Feb-2025 23:42:42 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/mess/public_html/tickets_servicio/ticket.php on line 47
+[18-Feb-2025 23:42:42 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/mess/public_html/tickets_servicio/menu.php on line 2
+[18-Feb-2025 23:42:42 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/mess/public_html/tickets_servicio/encabezado.php on line 41
+[18-Feb-2025 23:42:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/mess/public_html/tickets_servicio/encabezado.php on line 41
+[19-Feb-2025 01:17:32 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/mess/public_html/tickets_servicio/index.php on line 89
+[19-Feb-2025 03:47:20 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/mess/public_html/tickets_servicio/index.php on line 89
+[19-Feb-2025 08:48:11 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/mess/public_html/tickets_servicio/index.php on line 89
+[19-Feb-2025 20:40:10 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/mess/public_html/tickets_servicio/index.php on line 89
+[22-Feb-2025 02:04:41 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/mess/public_html/tickets_servicio/index.php on line 89
+[20-Mar-2025 23:31:41 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/mess/public_html/tickets_servicio/index.php on line 89
+[20-Mar-2025 23:32:43 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/mess/public_html/tickets_servicio/index.php on line 89
+[20-Mar-2025 23:32:59 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/mess/public_html/tickets_servicio/index.php on line 89
+[20-Mar-2025 23:37:06 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/mess/public_html/tickets_servicio/index.php on line 89
+[20-Mar-2025 23:37:57 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/mess/public_html/tickets_servicio/index.php on line 89
+[20-Mar-2025 23:37:57 UTC] PHP Deprecated:  Function utf8_encode() is deprecated in /home/mess/public_html/tickets_servicio/index.php on line 111
+[20-Mar-2025 23:37:57 UTC] PHP Deprecated:  Function utf8_encode() is deprecated in /home/mess/public_html/tickets_servicio/index.php on line 112
+[20-Mar-2025 23:37:57 UTC] PHP Deprecated:  Function utf8_encode() is deprecated in /home/mess/public_html/tickets_servicio/index.php on line 113
+[20-Mar-2025 23:37:57 UTC] PHP Deprecated:  Function utf8_encode() is deprecated in /home/mess/public_html/tickets_servicio/index.php on line 114
+[20-Mar-2025 23:37:57 UTC] PHP Deprecated:  Function utf8_encode() is deprecated in /home/mess/public_html/tickets_servicio/index.php on line 115
+[20-Mar-2025 23:37:57 UTC] PHP Warning:  Undefined array key "nombredelusuario" in /home/mess/public_html/tickets_servicio/encabezado.php on line 41
+[20-Mar-2025 23:53:15 UTC] PHP Warning:  Undefined array key "nombredelusuario" in /home/mess/public_html/tickets_servicio/encabezado.php on line 41
+[21-Mar-2025 14:20:41 UTC] PHP Warning:  Undefined array key "nombredelusuario" in /home/mess/public_html/tickets_servicio/encabezado.php on line 41
+[21-Mar-2025 14:23:37 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/mess/public_html/tickets_servicio/index.php on line 89
+[21-Mar-2025 15:41:43 UTC] PHP Warning:  Undefined array key "nombredelusuario" in /home/mess/public_html/tickets_servicio/inicio.php on line 4
+[21-Mar-2025 15:41:43 UTC] PHP Warning:  Undefined array key "nombredelusuario" in /home/mess/public_html/tickets_servicio/inicio.php on line 5
+[21-Mar-2025 15:41:43 UTC] PHP Warning:  Undefined array key "nombredelusuario" in /home/mess/public_html/tickets_servicio/menu.php on line 4
+[21-Mar-2025 15:41:43 UTC] PHP Warning:  Undefined array key "rol" in /home/mess/public_html/tickets_servicio/menu.php on line 39
+[21-Mar-2025 15:41:43 UTC] PHP Warning:  Undefined array key "rol" in /home/mess/public_html/tickets_servicio/menu.php on line 39
+[21-Mar-2025 15:41:43 UTC] PHP Warning:  Undefined array key "rol" in /home/mess/public_html/tickets_servicio/menu.php on line 39
+[21-Mar-2025 15:41:43 UTC] PHP Warning:  Undefined array key "rol" in /home/mess/public_html/tickets_servicio/menu.php on line 39
+[21-Mar-2025 15:41:43 UTC] PHP Warning:  Undefined array key "rol" in /home/mess/public_html/tickets_servicio/menu.php on line 73
+[21-Mar-2025 15:41:43 UTC] PHP Warning:  Undefined array key "rol" in /home/mess/public_html/tickets_servicio/menu.php on line 73
+[21-Mar-2025 15:41:43 UTC] PHP Warning:  Undefined array key "rol" in /home/mess/public_html/tickets_servicio/menu.php on line 92
+[21-Mar-2025 15:41:43 UTC] PHP Warning:  Undefined array key "nombredelusuario" in /home/mess/public_html/tickets_servicio/encabezado.php on line 41
+[21-Mar-2025 15:41:43 UTC] PHP Warning:  Undefined array key "nombredelusuario" in /home/mess/public_html/tickets_servicio/encabezado.php on line 42
+[21-Mar-2025 16:53:59 UTC] PHP Warning:  Undefined array key "nombredelusuario" in /home/mess/public_html/tickets_servicio/encabezado.php on line 41

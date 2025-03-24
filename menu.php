@@ -1,5 +1,5 @@
 <?php
-    session_start();
+    //session_start();
     include 'conn.php';
     if($_COOKIE['nombredelusuario'] == ''){
         echo '<script>window.location.assign("index")</script>';
@@ -9,7 +9,7 @@
 <ul class = "navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id = "accordionSidebar">
 
     <!-- Sidebar - Brand -->
-    <a class = "sidebar-brand d-flex align-items-center justify-content-center" href = "inicio">
+    <a class = "sidebar-brand d-flex align-items-center justify-content-center" href = "inicio.php">
         <div class = "sidebar-brand-icon rotate-n-1">
             <img class = "sidebar-card-illustration mb-2" src = "img/MESS_07_CuboMess_2.png" width = "80">
         </div>
@@ -36,35 +36,36 @@
     <!-- Nav Item - Pages Collapse Menu -->
     
     <?php
+    echo $_COOKIE['rol'];
         if ($_COOKIE['rol']== 1 || $_COOKIE['rol']==2 || $_COOKIE['rol'] == 3 || $_COOKIE['rol'] == 4) {
     ?>
-            <!----------------MENU 1------------------->
-            <li class = "nav-item">
-                <a class = "nav-link collapsed" href = "#" data-toggle = "collapse" data-target = "#collapseTwo" aria-expanded = "true" aria-controls = "collapseTwo">
-                    <i class = "fas fa-fw fa-cog"></i>
-                    <span>Tickets</span>
-                </a>
-                <div id = "collapseTwo" class = "collapse" aria-labelledby = "headingTwo" data-parent = "#accordionSidebar">
-                    <div class = "bg-white py-1 collapse-inner rounded">
-                        <a class = "collapse-item" href = "ticket">Ticket Nuevo</a>
-                        <?php
-                            if ($_COOKIE['rol'] <> 4) {
-                        ?>
-                        <a class = "collapse-item" href = "mistickets">Mis tickets</a>
-                        <?php
-                            }
-                        ?>
-                        <?php
-                            if ($_COOKIE['rol']==2 || $_COOKIE['rol']==5 || $_COOKIE['rol'] <> 3) {
-                        ?>
-                        <a class = "collapse-item" href = "ticketSinAsignar">Tickets sin asignar</a>
-                        <?php
-                            }
-                        ?>
-                    </div>
+        <!----------------MENU 1------------------->
+        <li class="nav-item">
+            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#ticketsSubmenu" aria-expanded="true" aria-controls="ticketsSubmenu">
+                <i class="fas fa-fw fa-cog"></i>
+                <span>Tickets</span>
+            </a>
+            <div id="ticketsSubmenu" class="collapse" aria-labelledby="headingTickets" data-parent="#accordionSidebar">
+                <div class="bg-white py-2 collapse-inner rounded">
+                    <a class="collapse-item" href="ticket">Ticket Nuevo</a>
+                    <?php
+                        if ($_COOKIE['rol'] <> 4) {
+                    ?>
+                    <a class="collapse-item" href="mistickets">Mis tickets</a>
+                    <?php
+                        }
+                    ?>
+                    <?php
+                        if ($_COOKIE['rol']==2 || $_COOKIE['rol']==5 || $_COOKIE['rol'] <> 3) {
+                    ?>
+                    <a class = "collapse-item" href = "ticketSinAsignar">Tickets sin asignar</a>
+                    <?php
+                        }
+                    ?>
                 </div>
-            </li>
-            <!---------------------------------->
+            </div>
+        </li>
+        <!---------------------------------->
     <?php
         }
     ?>

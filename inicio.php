@@ -39,7 +39,7 @@
                 <div class = "container-fluid">
                     <!-- Page Heading -->
                     <div class = "d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class = "h3 mb-0 text-gray-800">MODULO Tickets de Servicio</h1>
+                        <h5 class = "h3 mb-0 text-gray-800">MODULO Tickets de Servicio</h5>
                     </div>
                     <br><br><br>
                     <div class = "row">
@@ -54,6 +54,8 @@
             <footer class = "sticky-footer bg-white">
                 <div class = "container my-auto">
                     <div class = "copyright text-center my-auto">
+                        <span>Copyright &copy; MESS</span>
+                        <span>Copyright &copy; MESS</span>
                         <span>Copyright &copy; MESS</span>
                     </div>
                 </div>

@@ -42,10 +42,7 @@
 
                         <h5 class = "h3 mb-0 text-gray-800">-* Tickets de Servicio *-</h5>
 
-
                     <center><h1 class = "h3 mb-0 text-gray-800">MODULO Tickets de Servicio</h1></center>
-
-
                     </div>
                     <br><br><br>
                     <div class = "row">
@@ -60,8 +57,6 @@
             <footer class = "sticky-footer bg-white">
                 <div class = "container my-auto">
                     <div class = "copyright text-center my-auto">
-                        <span>Copyright &copy; MESS</span>
-                        <span>Copyright &copy; MESS</span>
                         <span>Copyright &copy; MESS</span>
                     </div>
                 </div>

@@ -15,7 +15,7 @@
     <meta name = "description" content = "">
     <meta name = "author" content = "">
 
-    <title>MESS TICKETS DE SERVICIO</title>
+    <title>MESS - TICKETS DE SERVICIO</title>
 
     <!-- Custom fonts for this template-->
     <link href = "vendor/fontawesome-free/css/all.min.css" rel = "stylesheet" type = "text/css">

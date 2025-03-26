@@ -36,7 +36,7 @@
     <!-- Nav Item - Pages Collapse Menu -->
     
     <?php
-    echo $_COOKIE['rol'];
+    
         if ($_COOKIE['rol']== 1 || $_COOKIE['rol']==2 || $_COOKIE['rol'] == 3 || $_COOKIE['rol'] == 4) {
     ?>
         <!----------------MENU 1------------------->

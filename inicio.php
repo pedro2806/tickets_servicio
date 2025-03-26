@@ -39,7 +39,7 @@
                 <div class = "container-fluid">
                     <!-- Page Heading -->
                     <div class = "d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class = "h3 mb-0 text-gray-800">Modulo de Tickets de Servicio</h1>
+                        <h1 class = "h3 mb-0 text-gray-800">Tickets de Servicio</h1>
                     </div>
                     <br><br><br>
                     <div class = "row">

@@ -390,15 +390,9 @@
     }
     
     //Funcion para usar las cookies
-    function getCookie(nombre) {
-        let cookies = document.cookie.split(';'); // Dividir todas las cookies en un array
-        for (let i = 0; i < cookies.length; i++) {
-            let cookie = cookies[i].trim(); // Eliminar espacios en blanco
-            if (cookie.startsWith(nombre + '=')) {
-                return cookie.substring(nombre.length + 1); // Devolver el valor de la cookie
-            }
-        }
-        return null;
+    function getCookie(name) {
+        const cookies = new URLSearchParams(document.cookie.replace(/; /g, '&'));
+        return cookies.get(name) || undefined;
     }
         
     //???
